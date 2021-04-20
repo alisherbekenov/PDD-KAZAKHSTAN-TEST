@@ -1,0 +1,233 @@
+*{
+	box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+}
+img{
+    width: 70%;
+    height: 37vh;
+}
+
+html{
+	font-size: 1.7vh;
+	font-family: serif;
+	background-color: #2d303d;
+
+
+
+}
+/* Блок Самого Теста */
+.box-a{
+	position: absolute;
+	width: 700px;
+	overflow: hidden;	
+	margin-left: 30%;
+	margin-right: 50%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.box-b{
+	width: 700px;
+	display: flex;
+	position: relative;
+	left: 0;
+	transition: left 1s;	
+	background-color: #2d303d;
+
+}	
+.box-c{
+    margin-top: 0%;
+	width: 700px;
+	height: 90vh;
+	border: 1px solid #e8324f;   
+}
+.question-head{
+	margin: 0;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+	background-color: #e8324f;
+	color: white;
+}
+.question-box{
+	padding: 0 20px;
+    width: 700px;
+    color: white;
+    
+}
+.question-text{
+	margin: 25px 0;
+	font-size: 18px;
+	text-align: center;
+    content: white;
+}
+.button-answer{
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #e8324f;
+	border-radius: 12px;
+	padding: 10px;
+	background-color: white;
+}
+.button-answer:hover{
+	background-color: #e8324f;
+	color: white;
+	cursor: pointer;
+	transition: .5s linear;
+
+}
+.for-result-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin-top: 20px;
+}
+.for-result-cell{
+	padding: 10px 10px;
+}
+.result-box{
+	height: 60px;
+	font-size: 35px;
+	background-color: #e8324f;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.for-result{
+	text-align: center;
+	font-size: 20px;
+}
+/* /Блок теста */
+/* Блок Меню */
+.category-wrap {
+	position: fixed;
+	padding: 15px;
+	background: white;
+	max-width: 200px;
+	height: 100vh;
+	box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/* opacity: 0.3;
+	transition: .7s linear; */
+  }
+  .wrap-index {
+	position: fixed;
+	padding: 15px;
+	background: white;
+	max-width: 200px;
+	height: 100vh;
+	box-shadow: 2px 2px 8px rgba(0,0,0,.1);
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	opacity: 0.3;
+	transition: .7s linear;
+  }
+  .wrap-index:hover{
+	opacity: 1;
+	transition: .7s linear;
+  }
+  .category-wrap h3 {
+	font-size: 16px;
+	color: rgba(0,0,0,.6);
+	margin: 0 0 10px;
+	padding: 0 5px;
+	position: relative;
+  }
+  .category-wrap h3:after {
+	content: "";
+	width: 6px;
+	height: 6px;
+	background: #e8324f;
+	position: absolute;
+	right: 5px;
+	bottom: 2px;
+	box-shadow: -8px -8px #e8324f, 0 -8px #e8324f, -8px 0 #e8324f;
+  }
+  .category-wrap ul {
+	list-style: none;
+	margin: 0;
+	padding: 0; 
+	border-top: 1px solid rgba(0,0,0,.3);
+  }
+  .category-wrap li { 
+	  font-size: 15px;
+	  width: 48%; 
+	  height: 4vh;
+	  margin: 5px 0 0 0px; 
+	  display: inline-block;
+	  border: 1px solid #e8324f;
+	  border-radius: 8px;
+}
+  .category-wrap a {
+	display: grid;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1em;
+	color: rgba(0,0,0,.6);
+	transition: .7s linear;
+	justify-content: center;
+}
+  .category-wrap a:after {
+	position: absolute;
+	right: 5px;
+	color: white;
+	transition: .7s linear;
+	height: 4vh;
+
+  }
+  /* .category-wrap a:hover {
+	background: #e8324f;
+	color: white;
+  } */
+  .category-wrap li:hover {
+	background: #e8324f;
+	color: white;
+	transition: .7s linear;
+	box-shadow:-3px 5px 25px 2px #e8324f; 
+}
+
+  /* /Блок Меню */
+
+.link-in-li{
+	width: 98%;
+	height: 7vh;
+	border: 1px solid #e8324f;
+	color: white;
+	transition: .7s linear;
+	margin-top: 2%;
+	padding-top: 7%;
+	border-radius: 8px;
+}
+.link-in-li:hover{
+	border: 1px solid #e8324f;
+	transition: .7s linear;
+	background: #e8324f;
+	box-shadow:-3px 5px 25px 2px #e8324f; 
+
+}
+.title{
+	width: 50%;
+	display:grid;
+	color: white;
+	font-weight: 700;
+	font-size: 4vh;
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 28%;
+	margin-right: 22%;
+	opacity: .9;
+}
+.bgc{
+
+	width:100%;
+	float: right;
+	height: 97.5vh;
+}
+.social {
+	margin-top: 20px;
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+.foot{
+	color: rgb(163, 163, 163);
+}
