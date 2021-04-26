@@ -172,7 +172,9 @@ html{
 	color: white;
 	transition: .7s linear;
 	height: 4vh;
-
+  }
+  .category-wrap a:hover{
+	  color: white;
   }
   /* .category-wrap a:hover {
 	background: #e8324f;
@@ -229,5 +231,5 @@ html{
 	display: inline-block;
 }
 .foot{
-	color: rgb(163, 163, 163);
+	color: rgb(94, 94, 94);
 }
